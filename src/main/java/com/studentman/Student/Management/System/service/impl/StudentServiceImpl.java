@@ -1,6 +1,7 @@
 package com.studentman.Student.Management.System.service.impl;
 
 import com.studentman.Student.Management.System.entity.Student;
+import com.studentman.Student.Management.System.repository.StudentRepository;
 import com.studentman.Student.Management.System.service.StudentService;
 
 import java.util.List;
