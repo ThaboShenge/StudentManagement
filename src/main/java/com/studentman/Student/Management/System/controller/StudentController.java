@@ -6,6 +6,7 @@ import com.studentman.Student.Management.System.service.StudentService;
 import org.springframework.stereotype.Controller;
 
 @Controller
+@RequestMapping("api/student/v1")
 public class StudentController {
 
     private StudentService studentService;
