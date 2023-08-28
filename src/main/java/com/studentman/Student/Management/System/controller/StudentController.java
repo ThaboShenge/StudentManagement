@@ -3,9 +3,11 @@ package com.studentman.Student.Management.System.controller;
 import ch.qos.logback.core.model.Model;
 import com.studentman.Student.Management.System.entity.Student;
 import com.studentman.Student.Management.System.service.StudentService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 
 @Controller
+@Slf4j
 @RequestMapping("api/student/v1")
 public class StudentController {
 
